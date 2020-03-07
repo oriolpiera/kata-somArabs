@@ -6,9 +6,15 @@ class RomansToArabs(object):
     """
     def romansToArabs(self, number):
         value = 0
+        previous = ""
         for letter in number:
+            if letter == "V":
+                if previous == "I":
+                    value = value - 2
+                value = value + 5
             if letter == "I":
                 value = value + 1
+            previous = letter
 
         return value
 
