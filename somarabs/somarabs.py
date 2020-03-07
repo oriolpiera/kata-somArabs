@@ -14,6 +14,8 @@ class RomansToArabs(object):
                 value = value + 5
             if letter == "I":
                 value = value + 1
+            if letter == "X":
+                value = value + 10
             previous = letter
 
         return value
