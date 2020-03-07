@@ -11,6 +11,15 @@ class RomansToArabs_Tests(unittest.TestCase):
 
         self.assertEqual(result, 1)
 
+    def test__romanToArab__II(self):
+            sa = RomansToArabs()
+
+            result = sa.romansToArabs("II")
+
+            self.assertEqual(result, 2)
+
+
+
     def test__helloWorld__OK(self):
         sa = RomansToArabs()
 
