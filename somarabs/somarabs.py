@@ -4,6 +4,9 @@ class RomansToArabs(object):
     """
     Classe per convertir nombres romans a nombres arabs
     """
+    def romansToArabs(self, number):
+        return 1
+
     def helloWorld(self):
         """Funció que retorna el típic hello world
 
